@@ -13,7 +13,7 @@ function tellMe(joke) {
   VoiceRSS.speech({
     // Normally, don't write out API Keys like this, but an exception made here because it's free.
     key: 'e985f868e96c46d9b0789c3855350152',
-    src: 'jokeString',
+    src: jokeString,
     hl: 'en-us',
     r: 0,
     c: 'mp3',
